@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/default/DEV/DesignPatternRepo/Design-Patterns-c-/Pimpl_Idiom/Person.cpp
+Person.h
+/home/default/DEV/DesignPatternRepo/Design-Patterns-c-/Pimpl_Idiom/Person.h
+
+/home/default/DEV/DesignPatternRepo/Design-Patterns-c-/Pimpl_Idiom/Person.h
+iostream
+-
+string
+-
+memory
+-
+
+/home/default/DEV/DesignPatternRepo/Design-Patterns-c-/Pimpl_Idiom/pimpl_idiom.cpp
+Person.h
+/home/default/DEV/DesignPatternRepo/Design-Patterns-c-/Pimpl_Idiom/Person.h
+
