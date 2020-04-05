@@ -10,7 +10,6 @@ enum PlaylistName
     eNumObjects
 };
 
-
 template<typename T, typename Key = int>
 class Multiton
 {
@@ -48,7 +47,8 @@ std::map<Key, std::shared_ptr<T>> Multiton<T,Key>::instances;
 class Playlist
 {
 public:
-    Playlist(){ std::cout << "Play list with id - " << ++playlistId << " has been created!!!\n";};
+    Playlist(){ std::cout << "Play list with id - " << ++playlistId
+                          << " has been created!!!\n";};
 private:
     static int playlistId;
 };
