@@ -3,3 +3,4 @@ Simple solution of c++ design patterns
 
 1 Multiton design pattern
 2 PIMPL idiom
+3 Command design pattern
